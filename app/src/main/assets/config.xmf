@@ -1,0 +1,8 @@
+{
+    "server":"127.0.0.1",
+    "server_port":12948,
+    "local_port":1080,
+    "password":"ODA5MzVjYj",
+    "method": "chacha20",
+    "timeout":600
+}

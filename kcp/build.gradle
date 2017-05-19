@@ -1,0 +1,22 @@
+plugins {
+    id "org.golang.mobile.bind" version "0.2.2"
+}
+gobind {
+    /* The Go package path; must be under one of the GOPATH elements or
+     a relative to the current directory (e.g. ../../hello) */
+    pkg = "kcpandroid"
+
+    /* GOPATH where the Go package is; check `go env` */
+    //GOPATH = "I:/soft/go/workspace"
+
+    /* Absolute path to the go binary */
+    //GO = "C:/go/bin"
+
+    /* Optionally, set the absolute path to the gomobile binary if the
+    /* gomobile binary is not located in the GOPATH's bin directory. */
+    //GOMOBILE = "I:/soft/go/workspace/bin/gomobile"
+    //GOBIND = "I:/soft/go/workspace/bin/gobind"
+    //GOMOBILEFLAGS="-javapkg my.java.package"
+    //GOARCH="arm amd64"
+}
+
